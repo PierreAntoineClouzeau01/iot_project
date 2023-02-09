@@ -1,0 +1,76 @@
+2023-02-09 10:17:41,506 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.20.Final
+2023-02-09 10:17:45,656 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-09 10:17:45,657 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-09 10:17:46,455 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 780 ms. Found 45 JPA repository interfaces.
+2023-02-09 10:17:46,471 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-09 10:17:46,472 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-09 10:17:46,492 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interfaces.
+2023-02-09 10:17:46,496 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-09 10:17:46,497 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-09 10:17:46,515 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+2023-02-09 10:17:46,517 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-09 10:17:46,518 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-09 10:17:46,540 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interfaces.
+2023-02-09 10:17:47,843 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2023-02-09 10:17:47,875 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2023-02-09 10:17:48,763 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-09 10:17:48,806 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-09 10:17:49,660 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2023-02-09 10:17:49,679 [main] INFO  o.a.coyote.http11.Http11NioProtocol - The ["http-nio-0.0.0.0-9090"] connector has been configured to support HTTP upgrade to [h2c]
+2023-02-09 10:17:49,680 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-9090"]
+2023-02-09 10:17:49,683 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-09 10:17:49,684 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-09 10:17:49,877 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-09 10:17:49,878 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8110 ms
+2023-02-09 10:17:50,927 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-09 10:17:51,103 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-02-09 10:17:51,657 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-09 10:17:51,901 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-09 10:17:52,367 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-09 10:17:52,482 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-02-09 10:17:54,805 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-09 10:17:54,858 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-09 10:17:59,721 [main] INFO  o.t.s.d.a.CachedAttributesService - Going to use directExecutor for the local cache type caffeine
+2023-02-09 10:18:02,224 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-09 10:18:03,110 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+2023-02-09 10:18:04,687 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@198a0416, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f207142, org.springframework.security.web.context.SecurityContextPersistenceFilter@1c80f8dd, org.springframework.security.web.header.HeaderWriterFilter@67062a93, org.springframework.security.web.csrf.CsrfFilter@7e1ce99c, org.springframework.security.web.authentication.logout.LogoutFilter@73072745, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@f31b991, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@5183131d, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@46bff388, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2f0e7008, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@65871cfd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@550e7ef6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c9c7e7d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@723f8990, org.springframework.security.oauth2.client.web.OAuth2AuthorizationCodeGrantFilter@69c263f8, org.springframework.security.web.session.SessionManagementFilter@7747571c, org.springframework.security.web.access.ExceptionTranslationFilter@7552f05b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@77185a2]
+2023-02-09 10:18:05,305 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2023-02-09 10:18:05,307 [main] INFO  o.s.i.c.PublishSubscribeChannel - Channel 'application.errorChannel' has 1 subscriber(s).
+2023-02-09 10:18:05,309 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+2023-02-09 10:18:05,310 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-9090"]
+2023-02-09 10:18:05,342 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path ''
+2023-02-09 10:18:05,758 [main] INFO  o.t.s.i.ThingsboardInstallService - Starting ThingsBoard Installation...
+2023-02-09 10:18:05,759 [main] INFO  o.t.s.i.ThingsboardInstallService - Installing DataBase schema for entities...
+2023-02-09 10:18:05,760 [main] INFO  o.t.s.s.i.SqlAbstractDatabaseSchemaService - Installing SQL DataBase schema part: schema-entities.sql
+2023-02-09 10:18:06,964 [main] INFO  o.t.s.s.i.SqlAbstractDatabaseSchemaService - Installing SQL DataBase schema indexes part: schema-entities-idx.sql
+2023-02-09 10:18:07,331 [main] INFO  o.t.s.s.i.SqlEntityDatabaseSchemaService - Installing SQL DataBase schema PostgreSQL specific indexes part: schema-entities-idx-psql-addon.sql
+2023-02-09 10:18:07,376 [main] INFO  o.t.s.i.ThingsboardInstallService - Installing DataBase schema for timeseries...
+2023-02-09 10:18:07,378 [main] INFO  o.t.s.s.i.SqlAbstractDatabaseSchemaService - Installing SQL DataBase schema part: schema-ts-psql.sql
+2023-02-09 10:18:07,484 [main] INFO  o.t.s.s.i.SqlAbstractDatabaseSchemaService - Successfully executed query: CREATE TABLE IF NOT EXISTS ts_kv_indefinite PARTITION OF ts_kv DEFAULT;
+2023-02-09 10:18:12,486 [main] INFO  o.t.s.i.ThingsboardInstallService - Loading system data...
+2023-02-09 10:18:14,085 [main] INFO  c.d.oss.driver.api.core.uuid.Uuids - PID obtained through native call to getpid(): 50
+2023-02-09 10:18:15,920 [main] INFO  org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+2023-02-09 10:18:16,262 [main] WARN  org.owasp.validator.html.Policy - The directive "noopenerAndNoreferrerAnchors" is not enabled by default. It is recommended to enable it to prevent reverse tabnabbing attacks.
+2023-02-09 10:18:17,095 [main] INFO  o.t.s.s.s.a.j.s.DefaultJwtSettingsService - Creating JWT admin settings...
+2023-02-09 10:18:17,100 [main] INFO  o.t.s.s.s.a.j.s.DefaultJwtSettingsService - Saving new JWT admin settings. From this moment, the JWT parameters from YAML and ENV will be ignored
+2023-02-09 10:18:19,511 [main] INFO  o.t.s.i.ThingsboardInstallService - Loading demo data...
+2023-02-09 10:18:22,949 [main] INFO  o.t.s.i.ThingsboardInstallService - Installation finished successfully!
+2023-02-09 10:18:22,988 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2023-02-09 10:18:22,989 [main] INFO  o.s.i.c.PublishSubscribeChannel - Channel 'application.errorChannel' has 0 subscriber(s).
+2023-02-09 10:18:22,991 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - stopped bean '_org.springframework.integration.errorLogger'
+2023-02-09 10:18:23,032 [sql-queue-0-edge events-17-thread-1] INFO  o.t.s.dao.sql.TbSqlBlockingQueue - [Edge Events] Queue polling was interrupted
+2023-02-09 10:18:23,040 [sql-queue-2-ts latest-13-thread-1] INFO  o.t.s.dao.sql.TbSqlBlockingQueue - [TS Latest] Queue polling was interrupted
+2023-02-09 10:18:23,040 [sql-queue-0-ts latest-11-thread-1] INFO  o.t.s.dao.sql.TbSqlBlockingQueue - [TS Latest] Queue polling was interrupted
+2023-02-09 10:18:23,040 [sql-queue-0-ts-8-thread-1] INFO  o.t.s.dao.sql.TbSqlBlockingQueue - [TS] Queue polling was interrupted
+2023-02-09 10:18:23,040 [sql-queue-1-ts latest-12-thread-1] INFO  o.t.s.dao.sql.TbSqlBlockingQueue - [TS Latest] Queue polling was interrupted
+2023-02-09 10:18:23,041 [sql-queue-2-ts-10-thread-1] INFO  o.t.s.dao.sql.TbSqlBlockingQueue - [TS] Queue polling was interrupted
+2023-02-09 10:18:23,041 [sql-queue-1-attributes-6-thread-1] INFO  o.t.s.dao.sql.TbSqlBlockingQueue - [Attributes] Queue polling was interrupted
+2023-02-09 10:18:23,040 [sql-queue-1-ts-9-thread-1] INFO  o.t.s.dao.sql.TbSqlBlockingQueue - [TS] Queue polling was interrupted
+2023-02-09 10:18:23,041 [sql-queue-0-attributes-5-thread-1] INFO  o.t.s.dao.sql.TbSqlBlockingQueue - [Attributes] Queue polling was interrupted
+2023-02-09 10:18:23,041 [sql-queue-2-attributes-7-thread-1] INFO  o.t.s.dao.sql.TbSqlBlockingQueue - [Attributes] Queue polling was interrupted
+2023-02-09 10:18:23,045 [sql-queue-0-events-2-thread-1] INFO  o.t.s.dao.sql.TbSqlBlockingQueue - [Events] Queue polling was interrupted
+2023-02-09 10:18:23,045 [sql-queue-1-events-3-thread-1] INFO  o.t.s.dao.sql.TbSqlBlockingQueue - [Events] Queue polling was interrupted
+2023-02-09 10:18:23,045 [sql-queue-2-events-4-thread-1] INFO  o.t.s.dao.sql.TbSqlBlockingQueue - [Events] Queue polling was interrupted
+2023-02-09 10:18:23,051 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-09 10:18:23,055 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-02-09 10:18:23,061 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
